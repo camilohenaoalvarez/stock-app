@@ -10,7 +10,7 @@ This project is a FastAPI application for managing users and products in a stock
 # Running the app
 
 1. Clone the repository:
-    `git clone ...`
+    `git clone https://github.com/camilohenaoalvarez/stock-app.git`
 
 2. Running the app
 ```bash
