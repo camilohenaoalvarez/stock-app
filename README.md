@@ -12,6 +12,14 @@ This project is a FastAPI application for managing users and products in a stock
 1. Clone the repository:
     `git clone https://github.com/camilohenaoalvarez/stock-app.git`
 
+2. Create a `.env` file:
+
+    In the root of the project create a `.env` file with the variables listed in the `example.env`
+    
+    - The `HOST` variable value should be pointing to the docker service created for the database, `db` in this case
+
+    - In the `.env` file, set the variable values you want for the database: `USERNAME`, `PASSWORD` and `DB_NAME`
+
 2. Running the app
 ```bash
     docker-compose up --build
